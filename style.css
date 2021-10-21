@@ -4,6 +4,7 @@ body{
     background-position: center;
     background-attachment: fixed;
     text-align: center;
+    overflow-y: hidden;
 }
 .header{
     background-color: rgba(255, 64, 96, 0.863);
@@ -31,6 +32,7 @@ body{
     padding-inline-start: 20px;
     padding-inline-end: 20px;
     scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 .ques{
     background-color: rgb(255, 64, 96);
