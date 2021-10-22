@@ -1,13 +1,13 @@
 var score = 0;
 function c1() {
 document.querySelector('.correct').style = "visibility: visible;";
-setTimeout(hide , 2000);
+setTimeout(hide , 1500);
 score += 1;
 document.getElementById('q1').style.display = "none";
 }
 function w1() {
 document.querySelector('.wrong').style = "visibility: visible;";
-setTimeout(hide , 2000);
+setTimeout(hide , 1500);
 score += 0;
 document.getElementById('q1').style.display = "none";
 }
