@@ -144,84 +144,84 @@ function restart() {
     document.querySelector('.main').innerHTML = `
 
 <div class="main">
-    <div class="box" id="q1">
-    <div class="ques">Q1. Who was the first indian to go to Space?</div><br>
-    <div class="option" onclick="c1()">A) Rakesh Sharma</div><br>
-    <div class="option" onclick="w1()">B) Neil ArmStrong</div><br>
-    <div class="option" onclick="w1()">C) Robinson Hood</div><br>
-    <div class="option" onclick="w1()">D) Marks Stephen</div>
-</div><br><br>
-
-    <div class="box" id="q2">
-    <div class="ques">Q2. Who invented Light Bulb?</div><br>
-    <div class="option" onclick="w2()">A) Denis Libnerman</div><br>
-    <div class="option" onclick="w2()">B) Zohans Zukengberg</div><br>
-    <div class="option" onclick="w2()">C) Steve Jobs</div><br>
-    <div class="option" onclick="c2()">D) Thomsa Alva Edison</div>
-</div><br><br>
-
-    <div class="box" id="q3">
-    <div class="ques">Q3. Which planet is also known as the blue planet?</div><br>
-    <div class="option" onclick="w3()">A) Mars</div><br>
-    <div class="option" onclick="c3()">B) Earth</div><br>
-    <div class="option" onclick="w3()">C) Saturn</div><br>
-    <div class="option" onclick="w3()">D) Pluto</div>
-</div><br><br>
-
-    <div class="box" id="q4">
-    <div class="ques">Q4. Which is the smallest bird in the world?</div><br>
-    <div class="option" onclick="c4()">A) Humming Birds</div><br>
-    <div class="option" onclick="w4()">B) Dolphin</div><br>
-    <div class="option" onclick="w4()">C) Robin Hood</div><br>
-    <div class="option" onclick="w4()">D) KingFisher</div>
-</div><br><br>
-
-    <div class="box" id="q5">
-    <div class="ques">Q5. Who invented the Computer?</div><br>
-    <div class="option" onclick="w5()">A) Rakesh Sharma</div><br>
-    <div class="option" onclick="c5()">B) Charles Babbage</div><br>
-    <div class="option" onclick="w5()">C) Wright Brothers</div><br>
-    <div class="option" onclick="w5()">D) Mark Zukerberg</div>
-</div><br><br>
-
-    <div class="box" id="q6">
-    <div class="ques">Q6.  Who are the founders of Google?</div><br>
-    <div class="option" onclick="w6()">A) Mark Zukerberg</div><br>
-    <div class="option" onclick="w6()">B) Steve Jobs</div><br>
-    <div class="option" onclick="w6()">C) Bill Gates</div><br>
-    <div class="option" onclick="c6()">D) Larry Page & Sergey Brin</div>
-</div><br><br>
-
-    <div class="box" id="q7">
-    <div class="ques">Q7. Which is the largest continent?</div><br>
-    <div class="option" onclick="w7()">A) Europe</div><br>
-    <div class="option" onclick="w7()">B) Africa</div><br>
-    <div class="option" onclick="w7()">C) America (South)</div><br>
-    <div class="option" onclick="c7()">D) Asia</div>
-</div><br><br>
-    <div class="box" id="q8">
-    <div class="ques">Q8. Who founded Facebook?</div><br>
-    <div class="option" onclick="w8()">A) Sergey Brin</div><br>
-    <div class="option" onclick="w8()">B) Neil ArmStrong</div><br>
-    <div class="option" onclick="c8()">C) Mark Zuckerberg</div><br>
-    <div class="option" onclick="w8()">D) Marks Stephen</div>
-</div><br><br>
-
-    <div class="box" id="q9">
-    <div class="ques">Q9.Which is the longest river on Earth?</div><br>
-    <div class="option" onclick="w9()">A) Ob</div><br>
-    <div class="option" onclick="w9()">B) Ganga</div><br>
-    <div class="option" onclick="w9()">C) Yamuna</div><br>
-    <div class="option" onclick="c9()">D) Nile</div>
-</div><br><br>
-
-    <div class="box" id="q10">
-    <div class="ques">Q10. Who wrote the national Anthem of India?</div><br>
-    <div class="option" onclick="w10()">A) Mahatma Gandhi</div><br>
-    <div class="option" onclick="c10()">B) Rabindranath Tagore</div><br>
-    <div class="option" onclick="w10()">C) Chandra Chattarji</div><br>
-    <div class="option" onclick="w10()">D) B.R Ambedkar</div>
-</div><br><br>
+      <div class="box" id="q1">
+        <div class="ques">Q1. Which is the national tree of India?</div><br>
+        <div class="option" onclick="c1()">A) Banyan Tree</div><br>
+        <div class="option" onclick="w1()">B) Banana Tree</div><br>
+        <div class="option" onclick="w1()">C) None of the Above</div><br>
+        <div class="option" onclick="w1()">D) Papaya Tree</div>
+    </div><br><br>
+    
+        <div class="box" id="q2">
+        <div class="ques">Q2. Which is the holy river of India?</div><br>
+        <div class="option" onclick="w2()">A) Yamuna</div><br>
+        <div class="option" onclick="w2()">B) Ganga</div><br>
+        <div class="option" onclick="w2()">C) Ob</div><br>
+        <div class="option" onclick="c2()">D) Bhramaputra</div>
+    </div><br><br>
+    
+        <div class="box" id="q3">
+        <div class="ques">Q3. Which is the smallest country in the world?</div><br>
+        <div class="option" onclick="w3()">A) India</div><br>
+        <div class="option" onclick="w3()">B) Pakistan</div><br>
+        <div class="option" onclick="c3()">C) Vatican City</div><br>
+        <div class="option" onclick="w3()">D) Australia</div>
+    </div><br><br>
+    
+        <div class="box" id="q4">
+        <div class="ques">Q4. Which city is also known as the Pink City?</div><br>
+        <div class="option" onclick="c4()">A) Jaipur</div><br>
+        <div class="option" onclick="w4()">B) Lucknow</div><br>
+        <div class="option" onclick="w4()">C) Kerela</div><br>
+        <div class="option" onclick="w4()">D) Leh</div>
+    </div><br><br>
+    
+        <div class="box" id="q5">
+        <div class="ques">Q5. Which sport does Saina Mirza pplay?</div><br>
+        <div class="option" onclick="c5()">A) Tennis</div><br>
+        <div class="option" onclick="w5()">B) Badminton</div><br>
+        <div class="option" onclick="w5()">C) Cricket</div><br>
+        <div class="option" onclick="w5()">D) Chess</div>
+    </div><br><br>
+    
+        <div class="box" id="q6">
+        <div class="ques">Q6.  Who built Taj Mahal?</div><br>
+        <div class="option" onclick="w6()">A) Aurenzeb</div><br>
+        <div class="option" onclick="w6()">B) Akbar</div><br>
+        <div class="option" onclick="c6()">C) Shah Jahan</div><br>
+        <div class="option" onclick="w6()">D) None of the above</div>
+    </div><br><br>
+    
+        <div class="box" id="q7">
+        <div class="ques">Q7. Which is the largest river in the world?</div><br>
+        <div class="option" onclick="w7()">A) Nile</div><br>
+        <div class="option" onclick="c7()">B) Amazon</div><br>
+        <div class="option" onclick="w7()">C) Ob</div><br>
+        <div class="option" onclick="w7()">D) Ganga</div>
+    </div><br><br>
+        <div class="box" id="q8">
+        <div class="ques">Q8. Who is know as the Human-Computer?</div><br>
+        <div class="option" onclick="w8()">A) Charles Babbage</div><br>
+        <div class="option" onclick="c8()">B) Shakuntala Devi</div><br>
+        <div class="option" onclick="w8()">C) Mark Zuckerberg</div><br>
+        <div class="option" onclick="w8()">D) None of the above</div>
+    </div><br><br>
+    
+        <div class="box" id="q9">
+        <div class="ques">Q9.Which is the largest ocean in the world?</div><br>
+        <div class="option" onclick="w9()">A) Indian Ocean</div><br>
+        <div class="option" onclick="c9()">B) Pacific Ocean</div><br>
+        <div class="option" onclick="w9()">C) Antartic Ocean</div><br>
+        <div class="option" onclick="w9()">D) Atlantic Ocean</div>
+    </div><br><br>
+    
+        <div class="box" id="q10">
+        <div class="ques">Q10. Which is the highest mountain peak in the world?</div><br>
+        <div class="option" onclick="w10()">A) Mt. Kanchengejana</div><br>
+        <div class="option" onclick="c10()">B) Mt. Everest</div><br>
+        <div class="option" onclick="w10()">C) Mt. Abu</div><br>
+        <div class="option" onclick="w10()">D) Mt. Weke</div>
+    </div><br><br>
 </div>
 <div class="correct">
 <img src="good.png" width="90%" alt="">
